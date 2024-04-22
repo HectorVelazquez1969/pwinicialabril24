@@ -1,0 +1,33 @@
+h1 {color: red;
+background-color: yellow;text-align: center;
+text-transform: uppercase;} /*transforma todo el contenido eneste ejemplo lo hizo con las mayusculas. otra cosa la vivorita indica que hay un error en la linea anterior que hay que corregir*/
+
+p {color: green;}
+
+.destacado{color: orange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+
+}
+#rojo{
+    width: 350px;
+    height: 250px;
+    background-color: red;
+    padding: 10px 50px 1px 200px;/*el padding se puede utilizar de varias maneras padding 20px (le aplica a todos los lados)
+            padding 10px  20px ( 10px aplica arriba y abajo y el 20px para los dos costados)*/
+
+    box-sizing: border-box;
+    border: solid black;
+    margin: 100px;
+}
+#rojo p,#azul p{color: white;}
+
+#azul{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(60, 24, 205);
+
+    
+
+}
