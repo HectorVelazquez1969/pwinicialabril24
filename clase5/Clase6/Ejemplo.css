@@ -1,0 +1,19 @@
+.texto{
+    background-color: yellow;
+    column-count: 2;/* column count te divide en la cantidad de columnas que quieras*/
+    column-gap: 60px;
+    column-rule: 3px solid blue;
+    text-align: center;
+    color: green;
+    box-shadow: 59px 62px 55px -49px rgba(0,0,0,0.75);
+-webkit-box-shadow: 59px 62px 55px -49px rgba(0,0,0,0.75);
+-moz-box-shadow: 59px 62px 55px -49px rgba(0,0,0,0.75);
+}
+
+.texto{margin: 0;}
+
+h1 {font-family: "Open Sans", sans-serif}
+
+
+.icono{font-size: 60px;
+color: aqua;}
