@@ -1,0 +1,10 @@
+.Caja{
+    margin: 100px;
+    box-shadow:10px 20px 5px rgb(95, 240, 102);/*horizontal (ejex), vertical (eje y ), desenfocado y el color. y si le pongo signo negativo la sombra se hace para el otro lado*/
+    background-color: rgb(213, 111, 33);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}

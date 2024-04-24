@@ -14,12 +14,12 @@ p {color: green;}
     width: 350px;
     height: 250px;
     background-color: red;
-    padding: 10px 50px 1px 200px;/*el padding se puede utilizar de varias maneras padding 20px (le aplica a todos los lados)
+    padding: 20px;/*el padding se puede utilizar de varias maneras padding 20px (le aplica a todos los lados)
             padding 10px  20px ( 10px aplica arriba y abajo y el 20px para los dos costados)*/
 
-    box-sizing: border-box;
+    box-sizing: border-box;/* esta propiedad hace que mantenga el tamaño que le aplique originalmente hace que se acomode en el espacio que tiene definido*/
     border: solid black;
-    margin: 100px;
+    margin-left: 150px;
 }
 #rojo p,#azul p{color: white;}
 
