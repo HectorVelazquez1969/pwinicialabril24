@@ -1,0 +1,16 @@
+.contenedor{background-color: grey;
+    display: inline-flex;
+   /* flex-direction: row;/*esta propiedad viene por defecto horizontal*/
+   /* flex-direction: row-reverse;/*esta propiedad arranca por el ultimo elemento y termina con el primero*/
+   flex-direction: column-reverse;
+}
+
+
+.item{background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    color: white;
+    font-size: 30px;
+}

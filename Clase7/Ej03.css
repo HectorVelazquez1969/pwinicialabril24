@@ -1,0 +1,17 @@
+.contenedor{background-color: grey;
+    display: inline-flex;
+   /* flex-wrap: nowrap;esta propiedad es la que viene por defecto donde no hay desbordamiento*/
+   *flex-wrap: wrap;/*esta propiedad coloca las cajas en la misma linea mientras tenga el espacio sino las pone en la linea inmediata*/
+   
+
+}
+
+
+.item{background-color: blue;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+
+}

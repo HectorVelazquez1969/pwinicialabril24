@@ -1,0 +1,31 @@
+.caja{
+    margin: 150px;
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: rotate(-90deg); /*lo cambia de posicion a verticar*/
+
+    transform: scale(1.5);/*agranda o achica en %*/
+    cursor: pointer;
+    transition: all 1s ease
+
+
+}
+
+.caja:hover{
+    background-color: orange;
+    transform: scale(1.5);
+    transform: rotate(-90deg);
+    color: red;
+    box-shadow: inset 0 0 0 25px green;
+    opacity: 0.5;
+    
+
+
+}
+}

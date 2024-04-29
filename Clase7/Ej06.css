@@ -1,0 +1,20 @@
+.contenedor{background-color: grey;
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 600px;
+    align-items:flex-end ;
+    align-items: flex center;
+    
+      }
+
+
+.item {background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    justify-content: ;
+    
+
+}
