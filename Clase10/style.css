@@ -1,0 +1,43 @@
+body{
+  background-color: #332f29;
+}
+.contenedor {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+header {
+  background-color: #8fa68e;
+  padding: 20px;
+}
+.holder {
+  display: flex;
+}
+
+nav {
+  background-color: #c0392e;
+}
+
+nav ul li {
+    color: white;
+    text-align: none;
+    font-size: 20px;
+  }
+
+nav ul li a{
+  color: white;
+  
+}
+  
+
+
+
+main{
+    width: 40%;
+    background-color: #f7dc6f;
+}
+footer{
+    background-color: #ccc59e;text-align: center;
+
+}
