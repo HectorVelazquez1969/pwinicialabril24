@@ -15,6 +15,6 @@ switch (valor) {
 switch (valor) {
     case 5: document.write('hola soy el numero 5'); break ;
 }
-default :
-     document.write('debe ingresar un numero comprendido entre 1 y 5'); break;
+
+     document.write('debe ingresar un numero comprendido entre 1 y 5'); break
     
