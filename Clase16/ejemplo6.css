@@ -1,0 +1,13 @@
+.cuadrado{
+    height: 100px;
+    width: 100px;
+  /*  background-color: yellow;*/
+}
+
+.cuadrado.rojo{
+    background-color: red;
+}
+
+.cuadrado.borde{
+    border: 2px solid black
+}
